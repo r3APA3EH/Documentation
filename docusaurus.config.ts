@@ -40,6 +40,20 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        blog: {
+          path: 'blog',
+          onUntruncatedBlogPosts: 'throw',
+          feedOptions: {
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -67,6 +81,11 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          to: 'blog',
+          label: 'Blog',
+          position: 'left'
+        },
         {
           type: "docSidebar",
           sidebarId: "mainSidebar",
