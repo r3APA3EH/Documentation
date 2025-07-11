@@ -16,7 +16,7 @@ import Card from "../theme/Card.tsx";
             <Card
                 title="Emotecraft Documentation"
                 body="Learn how to make player animations, and use them via Emotecraft."
-                link="/emotecraft/intro"
+                link="/emotecraft/gettingstarted"
                 linkTitle="View Documentation"
             />
         </div>

@@ -98,7 +98,7 @@ const config: Config = {
               label: "PlayerAnimationLibrary Documentation",
             },
             {
-              to: "/emotecraft/intro",
+              to: "/emotecraft/gettingstarted",
               label: "Emotecraft Documentation",
             }
           ],
