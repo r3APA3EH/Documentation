@@ -1,6 +1,6 @@
 import Card from "../theme/Card.tsx";
 
-# PlayerAnimationLibrary & Emotecraft Documentation
+# PlayerAnimationLibrary & Emotecraft
 
 Official documentation for PlayerAnimationLibrary, Emotecraft and other projects in the future...
 
