@@ -1,6 +1,8 @@
 import Card from "../theme/Card.tsx";
 
-# Player Animator API & Emotecraft Documentation
+# PlayerAnimationLibrary & Emotecraft Documentation
+
+Official documentation for PlayerAnimationLibrary, Emotecraft and other projects in the future...
 
 <div class="container">
     <div class="row">
