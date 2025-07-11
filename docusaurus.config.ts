@@ -5,22 +5,22 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Player Animation Library Documentation',
+  title: 'Documentation',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://pal-docs.zigythebird.com',
+  url: 'https://docs.zigythebird.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'PlayerAnimationLibrary', // Usually your GitHub org/user name.
+  projectName: 'Documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -44,7 +44,7 @@ const config: Config = {
     ],
   ],
   
-    plugins: [
+  plugins: [
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -58,21 +58,32 @@ const config: Config = {
   
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     navbar: {
 	  title: 'Homepage',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Documentation Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          type: "docSidebar",
+          sidebarId: "mainSidebar",
+          position: "left",
+          label: "PlayerAnimationLibrary Documentation",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "mainSidebar",
+          position: "left",
+          docsPluginId: "emotecraft",
+          label: "Emotecraft Documentation",
+        },
+        {
+          href: "https://github.com/PlayerAnimationLibrary/Documentation",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
@@ -80,24 +91,33 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Links',
+          title: "Docs",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              to: "/docs/intro",
+              label: "PlayerAnimationLibrary Documentation",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              to: "/emotecraft/intro",
+              label: "Emotecraft Documentation",
+            }
+          ],
+        },
+        {
+          title: "Links",
+          items: [
+            {
+              label: "Discord",
+              href: "https://discord.com/invite/PSW2t4Ujm6",
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: "GitHub",
+              href: "https://github.com/PlayerAnimationLibrary/Documentation",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} under the MIT license. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} under the MIT license. Built with Docusaurus.<br>NOT AN OFFICIAL MINECRAFT SERVICE. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.`,
     },
     prism: {
       theme: prismThemes.github,

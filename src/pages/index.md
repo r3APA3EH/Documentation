@@ -6,7 +6,7 @@ import Card from "../theme/Card.tsx";
     <div class="row">
         <div class="col col--6" style={{padding: '10px'}}>
             <Card
-                title="Player Animation Library Documentation"
+                title="PAL Documentation"
                 body="See how you can easily animate the player for your mod/datapack."
                 link="/docs/intro"
                 linkTitle="View Documentation"
@@ -14,10 +14,10 @@ import Card from "../theme/Card.tsx";
         </div>
         <div class="col col--6" style={{padding: '10px'}}>
             <Card
-                title="Emotecraft Wiki"
+                title="Emotecraft Documentation"
                 body="Learn how to make player animations, and use them via Emotecraft."
                 link="/emotecraft/intro"
-                linkTitle="View Wiki"
+                linkTitle="View Documentation"
             />
         </div>
     </div>
