@@ -9,7 +9,7 @@ Official documentation for PlayerAnimationLibrary, Emotecraft and other projects
         <div class="col col--6" style={{padding: '10px'}}>
             <Card
                 title="PAL Documentation"
-                body="See how you can easily animate the player for your mod/datapack."
+                body="See how you can easily animate the player for your mod."
                 link="/pal/intro"
                 linkTitle="View Documentation"
             />
