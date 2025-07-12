@@ -68,6 +68,15 @@ const config: Config = {
 		sidebarPath: './sidebars.ts',
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'pal',
+        path: "pal",
+        routeBasePath: "pal",
+        sidebarPath: './sidebars.ts',
+      },
+    ],
   ],
   
   themeConfig: {
@@ -90,6 +99,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "mainSidebar",
           position: "left",
+          docsPluginId: "pal",
           label: "PlayerAnimationLibrary Documentation",
         },
         {
@@ -113,7 +123,7 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              to: "/docs/intro",
+              to: "/pal/intro",
               label: "PlayerAnimationLibrary Documentation",
             },
             {
