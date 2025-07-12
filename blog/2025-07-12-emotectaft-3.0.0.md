@@ -17,10 +17,10 @@ authors: [dima_dencep, zigythebird]
 * 🪭 **Bends are back**    
   The bending library has been completely redesigned to look good and be similar to *Minecraft: Story Mode*.
 
-* 🌟**Future-Proofing Emotecraft**    
+* 🌟 **Future-Proofing Emotecraft**    
   This update lays the groundwork for even more powerful features and improvements.
 
-* 📚**Documentation**    
+* 📚 **Documentation**    
   New documentation is being created that will describe all modern features and contain all necessary info.    
   It's very WIP, so please be patient with us as we work on it.    
 
@@ -29,5 +29,5 @@ authors: [dima_dencep, zigythebird]
 - [CurseForge (Fabric)](https://curseforge.com/minecraft/mc-mods/emotecraft/files/6759735)
 - [Modrinth (NeoForge)](https://modrinth.com/mod/pZ2wrerK/version/jbZLWXOs)
 - [Modrinth (Fabric)](https://modrinth.com/mod/pZ2wrerK/version/swWqK9eX)
-- [Hangar (Paper)](https://hangar.papermc.io/dima_dencep/emotecraft/versions/3.0.0-a.build.106+1.21.7-paper)
 - [Modrinth (Paper)](https://modrinth.com/mod/pZ2wrerK/version/5C8NKcw9)
+- [Hangar (Paper)](https://hangar.papermc.io/dima_dencep/emotecraft/versions/3.0.0-a.build.106+1.21.7-paper)
