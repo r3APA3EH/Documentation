@@ -9,7 +9,7 @@ This section includes information about downloading and installing emotes for em
 You can currently download emotes from [Emotes Open Collection](https://emotes.kosmx.dev/), or by using [RedlanceBot](https://discord.com/users/762690439769358377) on the emotecraft server in discord (You can also DM)
 
 :::warning
-`.json` and `.emotecraft` emotes may not contain viruses, be careful about file ext and never double-click them!
+`.json` and `.emotecraft` emotes will NEVER contain viruses, but be careful about file ext and never double-click them!
 :::
 
 ### Installing
