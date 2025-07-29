@@ -7,6 +7,8 @@ authors: [zigythebird, dima_dencep]
 
 # ✨ New Emotecraft 3.0.0 Alpha!!!✨
 
+<!-- truncate -->
+
 We have fixed a lot of the bugs with the mod!
 Please report any bugs you encounter in the [GitHub issues](https://github.com/ZigyTheBird/PlayerAnimationLibrary/issues) page
 Here are SOME of the fixed issues:
