@@ -3,6 +3,11 @@ sidebar_position: 2
 ---
 
 # How to add the library to your mod's project
+Gradle Properties:
+```
+pal_version = 1.0.4+mc1.21.7 #Latest version so far
+```
+
 Maven Repository:
 ```
         mavenCentral()
@@ -25,11 +30,11 @@ Architectury NeoForge:
 
 Fabric:
 ```
-    modImplementation "com.zigythebird.playeranim:PlayerAnimationLibFabric:$rootProject.pal_version"
+    modImplementation "com.zigythebird.playeranim:PlayerAnimationLibFabric:$project.pal_version"
 ```
 
 NeoForge:
 ```
-    implementation "com.zigythebird.playeranim:PlayerAnimationLibNeo:$rootProject.pal_version"
+    implementation "com.zigythebird.playeranim:PlayerAnimationLibNeo:$project.pal_version"
     additionalRuntimeClasspath "org.javassist:javassist:3.30.2-GA"
 ```
