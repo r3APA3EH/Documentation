@@ -5,7 +5,7 @@ sidebar_position: 2
 # How to add the library to your mod's project
 Gradle Properties:
 ```
-pal_version = 1.0.4+mc1.21.7 #Latest version so far
+pal_version = 1.0.7+mc1.21.7
 ```
 
 Maven Repository:
