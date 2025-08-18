@@ -19,12 +19,15 @@ The number after that is the priority of your animation.
 
 Here is how to get an animation layer and play an animation for a specific player:
 ```
-		Animation animation = PlayerAnimResources.getAnimation(animationID);
-		AnimationController controller = (AnimationController) PlayerAnimationAccess.getPlayerAnimationLayer(
+		PlayerAnimationController controller = (PlayerAnimationController) PlayerAnimationAccess.getPlayerAnimationLayer(
                 player, ANIMATION_LAYER_ID
         );
-        controller.triggerAnimation(RawAnimation.begin().thenPlay(animation));
+        controller.triggerAnimation(animationID);
 ```
+That's the most basic way to do it.  
+But there are a lot of other ways to play animations  
+Take a look at the `replaceWithFade` method and the `PlayerRawAnimationBuilder` class!  
+
 You should put your animations in `assets/<namespace>/player_animations`  
 The animationID of your animation will be a ResourceLocation/Identifier with your mod's namespace and the path will be the name of the animation set in the animation file.  
 Keep in mind that the name of the file itself has nothing to do with what the ID will be.  
