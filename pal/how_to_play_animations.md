@@ -20,8 +20,7 @@ The number after that is the priority of your animation.
 Here is how to get an animation layer and play an animation for a specific player:
 ```
 		PlayerAnimationController controller = (PlayerAnimationController) PlayerAnimationAccess.getPlayerAnimationLayer(
-                player, ANIMATION_LAYER_ID
-        );
+                player, ANIMATION_LAYER_ID);
         controller.triggerAnimation(animationID);
 ```
 That's the most basic way to do it.  
