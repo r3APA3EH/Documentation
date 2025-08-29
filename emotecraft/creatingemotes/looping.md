@@ -25,7 +25,7 @@ Using this method, the animation won't loop; it will just play once.
 
 ```json5
 {
-  "loop": "true" // or "play_once"
+  "loop": "false" // or "play_once"
 }
 ```
 
