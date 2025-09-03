@@ -24,7 +24,7 @@ To specify the author, description, or anything else, you must use the `player_a
         "description": "My first animation",
         "author": "dima_dencep"
       },
-      "bones": {}
+      "bones": {...}
     }
   },
   "geckolib_format_version": 2

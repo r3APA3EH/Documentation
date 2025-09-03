@@ -19,7 +19,8 @@ Here are a couple of the features the mod provides that you might find very usef
 * Has a priority system so conflicts between two mods trying to animate the player at the same time can be resolved.  
 * Almost full MoLang support using [Mocha](https://unnamed.team/docs/mocha). (Even supports stuff like arrow `->` operators, and variables!)
 
-## Why should I use this over the other one?
-Well development on the other one has practically halted.  
-On the other hand we're dedicated to doing fast ports and bug fixes.  
-And this mod has all the features player animator has and much more than that!  
+## Why should I use this over player animator?
+Well this is the official successor to player animator!  
+Player animator will no longer receive any updates.  
+PAL is capable of doing everything player animator can, that includes loading all player animator format animations.  
+And aside from that it has a lot of new features, like the aforementioned MoLang support.
