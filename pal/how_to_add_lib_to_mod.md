@@ -5,10 +5,10 @@ sidebar_position: 2
 # How to add the library to your mod's project
 Gradle Properties:
 ```
-pal_version = 1.0.10+mc1.21.7
+pal_version = 1.0.11+mc1.21.7
 ```
-There is also version 0.2.0+dev+mc1.21.1 for 1.21, but that hasn't released publically yet, and is a testing build.  
-It should release very soon though.
+There is also a 1.21.1 version!  
+You just have to change the specified MC version like this: `pal_version = 1.0.11+mc1.21.1`
 
 Maven Repository:
 ```
