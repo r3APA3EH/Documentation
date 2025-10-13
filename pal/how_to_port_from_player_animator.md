@@ -2,7 +2,9 @@
 sidebar_position: 4
 ---
 
-# The Basics
+# How to port from player animator
+
+## The basics
 In player animator you use a `KeyframeAnimationPlayer` to play a `KeyframeAnimation`, but each `KeyframeAnimationPlayer` can only play one animation before having to be discarded, so you usually register an `AnimationLayer` or `ModifierLayer` to the player animation stack to hold the current animation player.  
 
 In PAL though you can simply register a `PlayerAnimationController` and play animations using it as shown in the how to play animations section. (You can even chain animations so they play back to back using the `PlayerRawAnimation` class!)  
@@ -13,7 +15,7 @@ TLDR:
 `KeyframeAnimationPlayer, AnimationLayer, ModifierLayer` -> `PlayerAnimationController`  
 `KeyframeAnimation` -> `Animation`
 
-# Modifiers
+## Modifiers
 First of all modifiers now give you an instance of `PlayerAnimBone` instead of various vectors per bone, but I assume you will get the hang of that quickly. :)  
 
 There are some other much serious changes when it comes to the values in modifiers though, so here is a list:  
