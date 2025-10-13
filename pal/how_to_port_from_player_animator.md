@@ -18,7 +18,7 @@ TLDR:
 ## Modifiers
 First of all modifiers now give you an instance of `PlayerAnimBone` instead of various vectors per bone, but I assume you will get the hang of that quickly. :)  
 
-There are some other much serious changes when it comes to the values in modifiers though, so here is a list:  
+There are some other serious changes when it comes to the values in modifiers though, so here is a list:  
 * Player animator uses metres/block for body positions unlike all other bones, but PAL now also uses pixels for it for the sake of consistency
 * The Y pos axis for every bone is negated except the body bone
 * The Y and X rot axes are negated for the body bone
@@ -26,4 +26,4 @@ There are some other much serious changes when it comes to the values in modifie
 * The X and Z position and rotation axes are negated for capes
 * The Z and Y position and rotation axes are swapped for items
 
-All these changes are for achieving consistency between how all the different bones operate, more specifically consistency with how they are in Blockbench.
+All these changes are for achieving consistency between how all the different bones operate, more specifically consistency with how they work in Blockbench.
