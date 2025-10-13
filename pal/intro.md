@@ -23,4 +23,4 @@ Here are a couple of the features the mod provides that you might find very usef
 Well this is the official successor to player animator!  
 Player animator will no longer receive any updates.  
 PAL is capable of doing everything player animator can, that includes loading all player animator format animations.  
-And aside from that it has a lot of new features, like the aforementioned MoLang support.
+PAL has a ton of exclusive features and bug fixes, like the aforementioned MoLang support.
