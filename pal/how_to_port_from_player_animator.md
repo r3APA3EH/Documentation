@@ -17,7 +17,7 @@ TLDR:
 
 ## Modifiers
 First of all modifiers now give you an instance of `PlayerAnimBone` instead of various vectors per bone, but I assume you will get the hang of that quickly. :)  
-All bone names are now in snake case so `left_arm` instead of `leftArm`.  
+All bone names are now in snake case so for example `left_arm` instead of `leftArm`.  
 
 There are some other serious changes when it comes to the values in modifiers though, so here is a list:  
 * Player animator uses metres/block for body positions unlike all other bones, but PAL now also uses pixels for it for the sake of consistency
