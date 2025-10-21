@@ -24,7 +24,7 @@ You could also add a bone with no children as some sort of marker.
 
 :::warning
 
-If you have read the fading in/out page of the Emotecraft wiki you know that `endTick` uses the easing of the last keyframe.  
+If you have read the fading in/out page of the wiki you know that `endTick` uses the easing of the last keyframe.  
 Well, this does not apply to custom bones.  
 So if the bones affected by a custom bone have a keyframe their easings will be used, if not then it will default to in out sine.  
 
