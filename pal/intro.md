@@ -6,9 +6,7 @@ sidebar_position: 1
 
 :::note
 
-This wiki is very WIP.  
-Once it's done, it's going to have a lot of info I swear!  
-Also checkout the Emotecraft wiki since some of it's pages might be useful to you.
+Checkout the Emotecraft wiki since some of its pages might be useful to you.
 
 :::
 
