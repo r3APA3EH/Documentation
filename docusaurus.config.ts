@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '',
+  title: 'PAL & Emotecraft Documentation',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
