@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'PAL & Emotecraft Documentation',
+  title: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -79,6 +79,7 @@ const config: Config = {
   
   themeConfig: {
     image: 'img/logo.png',
+    metadata: [{name: 'twitter:card', content: 'PAL & Emotecraft Documentation'}],
     colorMode: {
       respectPrefersColorScheme: true,
     },
