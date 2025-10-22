@@ -79,7 +79,7 @@ const config: Config = {
   
   themeConfig: {
     image: 'img/logo.png',
-    metadata: [{name: 'twitter:card', content: 'PAL & Emotecraft Documentation'}],
+    metadata: [{name: 'twitter:site', content: 'PAL & Emotecraft Documentation'}],
     colorMode: {
       respectPrefersColorScheme: true,
     },
