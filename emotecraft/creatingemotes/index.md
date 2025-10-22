@@ -1,3 +1,7 @@
+---
+description: ""
+---
+
 # Creating Emotes
 
 This section includes information about emote creation, limitations, and additional features.

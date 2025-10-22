@@ -1,3 +1,7 @@
+---
+description: ""
+---
+
 # Fading in/out
 Our animations support properties called `endTick` and `beginTick`.  
 To add these properties to Blockbench animations, check out the extra data section of the Blockbench wiki page.  

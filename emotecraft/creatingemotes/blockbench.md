@@ -1,3 +1,7 @@
+---
+description: ""
+---
+
 # Creating Emotes With Blockbench
 
 :::note

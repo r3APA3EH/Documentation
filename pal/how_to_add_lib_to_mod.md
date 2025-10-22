@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: ""
 ---
 
 # How to add the library to your mod's project

@@ -1,3 +1,7 @@
+---
+description: ""
+---
+
 # Creating Music for Emotes
 You can make music for your emotes using [Note Block Studio](https://noteblock.studio/)!
 

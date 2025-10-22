@@ -1,3 +1,7 @@
+---
+description: ""
+---
+
 # Custom Pivot Points/Bones
 You can add custom bones to the Blockbench model AS LONG AS THEY ARE A CHILD OF THE BODY BONE.   
 For example you could add a hip bone that rotates all the bones except the legs around well... the hips.  

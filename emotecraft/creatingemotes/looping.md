@@ -1,3 +1,7 @@
+---
+description: ""
+---
+
 # Looping (For Blockbench formats)
 This section includes information on the different ways you can loop an animation.
 

@@ -1,3 +1,7 @@
+---
+description: ""
+---
+
 # Creating Emotes With Blender
 
 To make emotes in Blender, you need to use one of the available rigs on the Emotecraft's [GitHub](https://github.com/KosmX/emotes/tree/dev/blender). Please read the readme.    
