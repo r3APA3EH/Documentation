@@ -4,12 +4,6 @@ sidebar_position: 1
 
 # Introduction
 
-:::note
-
-Checkout the Emotecraft wiki since some of its pages might be useful to you.
-
-:::
-
 ## Why should I use this?
 Here are a couple of the features the mod provides that you might find very useful:
 * Provides an easy way to play JSON animations made in Blockbench AND Blender, while allowing you to modify them using code.  
