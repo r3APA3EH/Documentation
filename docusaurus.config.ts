@@ -78,7 +78,7 @@ const config: Config = {
   ],
   
   themeConfig: {
-    image: 'img/logo.svg',
+    image: 'img/logo.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
