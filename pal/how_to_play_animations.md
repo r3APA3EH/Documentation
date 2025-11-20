@@ -12,11 +12,15 @@ description: ""
                 )
         );
 ```
-Here is an example of how you register an animation layer for every player!  
-You do this in your client init.  
-Here the ANIMATION_LAYER_ID is the ResourceLocation/Identifier for you layer.  
+Here is an example of how you register an animation layer for every player!
+Here the ANIMATION_LAYER_ID is the ResourceLocation/Identifier for your layer.
 The number after that is the priority of your animation.  
 1000 priority is for cosmetic stuff like emotes, very low values are for idle animations, and values higher than that like 1500+ are for important gameplay animations.  
+
+:::warning  
+If you're using Fabric, you register controllers in your mod's client init class.   
+But if you're on NeoForge you MUST use the `enqueueWork` method of the `FMLClientSetupEvent` event!!!  
+:::
 
 Here is how to get an animation layer and play an animation for a specific player:
 ```
