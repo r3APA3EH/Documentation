@@ -28,7 +28,6 @@ Architectury Common:
 Architectury NeoForge:
 ```
     modImplementation "com.zigythebird.playeranim:PlayerAnimationLibNeo:$rootProject.pal_version"
-    forgeRuntimeLibrary "org.javassist:javassist:3.30.2-GA"
 ```
 
 Fabric:
@@ -39,5 +38,4 @@ Fabric:
 NeoForge:
 ```
     implementation "com.zigythebird.playeranim:PlayerAnimationLibNeo:$project.pal_version"
-    additionalRuntimeClasspath "org.javassist:javassist:3.30.2-GA"
 ```
