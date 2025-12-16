@@ -6,9 +6,10 @@ description: ""
 # How to add the library to your mod's project
 Gradle Properties:
 ```
-pal_version = 1.1.1+mc.1.21.9
+pal_version = 1.1.3+alpha.2+mc.1.21.11
 ```
-There is also a 1.21.1 version!: `pal_version = 1.1.1+mc.1.21.1`  
+There is also a 1.21.1 version!: `pal_version = 1.1.3+mc.1.21.1`  
+And a 1.21.9-10 version!: `pal_version = 1.1.3+mc.1.21.9`  
 There is also a 1.21.7-8 version, but it's no longer supported, so I don't recommend using it.
 
 Maven Repository:
@@ -23,6 +24,7 @@ Maven Repository:
 Architectury Common:
 ```
     modApi "com.zigythebird.playeranim:PlayerAnimationLibCommon:$rootProject.pal_version"
+    implementation "com.zigythebird.playeranim:PlayerAnimationLibCommon:$rootProject.pal_version"
 ```
 
 Architectury NeoForge:
