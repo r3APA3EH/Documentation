@@ -26,8 +26,8 @@ There are some other serious changes when it comes to the values in modifiers th
 * Player animator uses metres/block for body positions unlike all other bones, but PAL now also uses pixels for it for the sake of consistency
 * The Y pos axis for every bone is negated except the body bone
 * The Y and X rot axes are negated for the body bone
-* All the rotation and position axes are negated for items
 * The X and Z position and rotation axes are negated for capes
 * The Z and Y position and rotation axes are swapped for items
+* All the rotation and position axes are negated for items except the Y pos axis. (previously the Z axis on player animator)
 
 All these changes are for achieving consistency between how all the different bones operate, more specifically consistency with how they work in Blockbench.
