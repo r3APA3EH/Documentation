@@ -12,6 +12,7 @@ It is expected that you are already familiar with Blender in some way. If you ar
 You place all the keyframes you want on the body parts, go to the `Export` tab, change the contents of the variables for your liking and run the script. Your emote will be placed in the same directory as the rig.    
 
 :::warning
+All keyframes on tick 0 are ignored, they must be on tick 1 and above!!!
 Items are animated with the `rightItem` and `leftItem` objects, not the sword models!
 :::
 
