@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'PAL & Emotecraft Documentation',
+  title: 'PlayerAnimationLibrary & Emotecraft Documentation',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,7 +20,12 @@ const config: Config = {
   projectName: 'Documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -57,13 +62,14 @@ const config: Config = {
   ],
   
   plugins: [
+    './plugins/maven-versions-plugin',
     [
       '@docusaurus/plugin-content-docs',
       {
         id: 'emotecraft',
-		path: "emotecraft",
-		routeBasePath: "emotecraft",
-		sidebarPath: './sidebars.ts',
+        path: "emotecraft",
+        routeBasePath: "emotecraft",
+        sidebarPath: './sidebars.ts',
       },
     ],
     [
@@ -79,12 +85,12 @@ const config: Config = {
   
   themeConfig: {
     image: 'img/logo.png',
-    metadata: [{name: 'twitter:card', content: 'PAL & Emotecraft Documentation'}],
+    metadata: [{name: 'twitter:card', content: 'summary'}],
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-	  title: 'Homepage',
+      title: 'Homepage',
       logo: {
         alt: 'Documentation Logo',
         src: 'img/logo.svg',
@@ -151,7 +157,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-	  additionalLanguages: ["java", "gradle", "toml", "groovy", "kotlin", "javascript", "json", "json5", "properties"],
+      additionalLanguages: ["java", "gradle", "toml", "groovy", "kotlin", "javascript", "json", "json5", "properties"],
     },
   } satisfies Preset.ThemeConfig,
 };
